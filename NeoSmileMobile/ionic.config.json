@@ -1,0 +1,7 @@
+{
+  "name": "NeoSmileMobile",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
