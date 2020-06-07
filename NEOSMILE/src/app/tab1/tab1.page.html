@@ -1,0 +1,29 @@
+<ion-content [scrollEvents]="true">
+  <ion-card>
+    <img src="../../assets/img/home.jpg" />
+    <ion-card-content>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum
+    </ion-card-content>
+  </ion-card>
+
+  <div style="text-align: center;padding-bottom: 10px;">
+    <strong>
+      What We Have Done
+    </strong>
+    <ion-slides [options]="sliderOptions">
+      <ion-slide *ngFor="let img of [1,2,3] ">
+        <img
+          src="../../assets/img/{{img}}.png"
+          tappable
+          (click)="openPreview(img)"
+        />
+      </ion-slide>
+    </ion-slides>
+  </div>
+</ion-content>

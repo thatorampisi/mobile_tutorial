@@ -1,0 +1,7 @@
+{
+  "name": "NEOSMILE",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

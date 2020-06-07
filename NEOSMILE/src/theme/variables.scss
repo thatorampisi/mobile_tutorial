@@ -1,0 +1,47 @@
+// Ionic Variables and Theming. For more info, please see:
+// http://ionicframework.com/docs/theming/
+
+/** Ionic CSS Variables **/
+:root {
+  --ion-background-color: #04534b;
+  --ion-background-color-rgb: 4,83,75;
+
+  --ion-text-color: #ffffff;
+  --ion-text-color-rgb: 255,255,255;
+
+  --ion-color-step-50: #115c54;
+  --ion-color-step-100: #1d645d;
+  --ion-color-step-150: #2a6d66;
+  --ion-color-step-200: #36756f;
+  --ion-color-step-250: #437e78;
+  --ion-color-step-300: #4f8781;
+  --ion-color-step-350: #5c8f8a;
+  --ion-color-step-400: #689893;
+  --ion-color-step-450: #75a09c;
+  --ion-color-step-500: #82a9a5;
+  --ion-color-step-550: #8eb2ae;
+  --ion-color-step-600: #9bbab7;
+  --ion-color-step-650: #a7c3c0;
+  --ion-color-step-700: #b4cbc9;
+  --ion-color-step-750: #c0d4d2;
+  --ion-color-step-800: #cddddb;
+  --ion-color-step-850: #d9e5e4;
+  --ion-color-step-900: #e6eeed;
+  --ion-color-step-950: #f2f6f6;
+
+  --ion-color-primary: #ba8f44;
+  --ion-color-primary-rgb: 186,143,68;
+  --ion-color-primary-contrast: #000000;
+  --ion-color-primary-contrast-rgb: 0,0,0;
+  --ion-color-primary-shade: #a47e3c;
+  --ion-color-primary-tint: #c19a57;
+}
+
+.ion-color-primary {
+  --ion-color-base: var(--ion-color-primary);
+  --ion-color-base-rgb: var(--ion-color-primary-rgb);
+  --ion-color-contrast: var(--ion-color-primary-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-primary-contrast-rgb);
+  --ion-color-shade: var(--ion-color-primary-shade);
+  --ion-color-tint: var(--ion-color-primary-tint);
+}

@@ -1,0 +1,24 @@
+ion-card {
+    --ion-background-color: white;
+}
+
+ion-card img {
+    height: 50%;
+    width: fit-content;
+}
+
+ion-card-content {
+    color: black;
+    font-family: auto;
+}
+
+ion-slides {
+    margin-top: 30&;
+    background: transparent;
+
+    img {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        // border-radius: 100px;
+    }
+}
